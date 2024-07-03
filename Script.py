@@ -11,21 +11,21 @@ def is_enabled(value, default):
         return default
 
 class script(object):
-    START_TXT = environ.get("START_TXT", '''<b>Hello {} 👋🏻 I'm OTT Search Bot I can share Movies and Series 😁.</b>
+    START_TXT = """𝘏𝘦𝘭𝘰 {},
+𝘔𝘺 𝘖𝘧𝘧𝘪𝘤𝘪𝘢𝘭 𝘕𝘢𝘮𝘦 𝘪𝘴 <a href=https://t.me/{}>{}</a>, 𝘐 𝘊𝘢𝘯 𝘎𝘪𝘷𝘦 𝘠𝘰𝘶 𝘔𝘰𝘷𝘪𝘦𝘴, 𝘢𝘯𝘥 𝘐𝘢𝘮 𝘖𝘧𝘧𝘪𝘤𝘪𝘢𝘭𝘺 𝘔𝘢𝘥𝘦 𝘧𝘰𝘳 <a href=https://t.me/newgen_cinemaazzz>𝘛𝘩𝘪𝘴 𝘎𝘳𝘰𝘶𝘱♡</a></b>...
 
-<i>Aᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴛᴏ sᴇᴇ ᴛʜᴇ ᴍᴀɢɪᴄ ᴏʀ ʀᴇᴀᴅ ᴍᴏʀᴇ ғʀᴏᴍ ᴛʜᴇ ᴍᴇɴᴜ ʙᴇʟᴏᴡ</i>''')
-    HELP_TXT = """𝙷𝙴𝚈 {}
-𝙷𝙴𝚁𝙴 𝙸𝚂 𝙼𝚈 𝙷𝙴𝙻𝙿 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
-    ABOUT_TXT = """<b><i>🤖 ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/OTT_Movies_Search_Bot><b>OTT Search Bot</b></a>\n
-👨‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/GreyMatter_Owner><b>GreyMatter's</b></a>\n
-📝 ʟᴀɴɢᴜᴀɢᴇ : ᴘʏʀᴏɢʀᴀᴍ\n
-📚 ꜰʀᴀᴍᴇᴡᴏʀᴋ : ᴘʏᴛʜᴏɴ 3\n
-📡 ʜᴏsᴛᴇᴅ ᴏɴ : VPS\n
-📢 ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/GreyMatter_Bots><b></b>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>\n
-🌟 ᴠᴇʀsɪᴏɴ : ᴠ 4.0\n</b></i>"""
-    SOURCE_TXT = """<b>𝐂𝐫𝐞𝐚𝐭𝐞 𝐎𝐧𝐞 𝐋𝐢𝐤𝐞 𝐓𝐡𝐢𝐬:</b>
-» I will Create One Bot For You<b>
-» Contact Me @GreyMatter_Owner<b>"""
+⇚𝘠𝘰𝘶 𝘊𝘢𝘯 𝘈𝘥𝘥 𝘮𝘦 𝘖𝘯 𝘠𝘰𝘶𝘳 𝘎𝘳𝘰𝘶𝘱, 𝘐𝘵𝘴 𝘕𝘰𝘵 𝘢 𝘗𝘳𝘰𝘣𝘭𝘦𝘮, 𝘢𝘥𝘥 𝘮𝘦 𝘢𝘴 𝘈𝘥𝘮𝘪𝘯 𝘢𝘯𝘥 𝘐 𝘸𝘪𝘭𝘭 𝘗𝘳𝘰𝘷𝘪𝘥𝘦 𝘔𝘰𝘷𝘪𝘦𝘴⇛"""
+    HELP_TXT = """𝘏𝘦𝘺 {}
+𝘏𝘦𝘳𝘦 𝘪𝘴 𝘮𝘺 𝘏𝘦𝘭𝘱 𝘊𝘰𝘮𝘮𝘢𝘯𝘥𝘴"""
+    ABOUT_TXT = """<b>● 𝘍𝘢𝘮𝘪𝘭𝘺 𝘕𝘢𝘮𝘦: 𝘕𝘎𝘊 𝘐𝘮𝘋𝘣 𝘉𝘰𝘵𝘴</b>
+<b>● 𝘋𝘦𝘷𝘦𝘭𝘰𝘱𝘦𝘳: <a href=https://t.me/Unavailable4allTime>𝘈𝘴𝘩𝘪𝘬 𝘔𝘩𝘥</a></b>
+<b>● 𝘓𝘪𝘣𝘳𝘢𝘳𝘺: 𝘗𝘺𝘳𝘰𝘨𝘳𝘢𝘮</b>
+<b>● 𝘓𝘢𝘯𝘨𝘶𝘢𝘨𝘦: 𝘗𝘺𝘵𝘩𝘰𝘯 3</b>
+<b>● 𝘋𝘢𝘵𝘢 𝘉𝘢𝘴𝘦: 𝘔𝘢𝘯𝘨𝘰 𝘋𝘉</b>
+<b>● 𝘏𝘰𝘴𝘵 𝘚𝘦𝘳𝘷𝘦𝘳: 🚀
+<b>● 𝘝𝘦𝘳𝘴𝘪𝘰𝘯: ᴜᒪᴛʀᴀ</b>
+<b>● 𝘔𝘢𝘪𝘯 𝘎𝘳𝘰𝘶𝘱: <a href=https://t.me/newgen_cinemaazzz>𝘕𝘦𝘸𝘎𝘦𝘯 𝘊𝘪𝘯𝘦𝘮𝘢𝘢𝘻𝘻𝘻™📌</a></b>
+<b>● 𝘕𝘦𝘸 𝘔𝘰𝘷𝘪𝘦𝘴: <a href=https://t.me/Team_NGC>𝘕𝘦𝘸 𝘔𝘰𝘷𝘪𝘦𝘴📂</a></b>"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
 - Filter is the feature were users can set automated replies for a particular keyword and Search Bot will respond whenever a keyword is found the message
