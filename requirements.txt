@@ -1,4 +1,4 @@
-git+https://github.com/Ashik231/cinemagoer
+git+git+https://github.com/Joelkb/cinemagoer
 pyrogram>=2.0.30
 imdbpy==2022.7.9
 tgcrypto
