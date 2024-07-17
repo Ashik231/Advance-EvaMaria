@@ -288,7 +288,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 f"Some error occurred!!",
                 parse_mode=enums.ParseMode.MARKDOWN
             )
-        return await query.answer('🎁)
+        return await query.answer('🎁')
     elif "deletecb" in query.data:
         await query.answer()
 
