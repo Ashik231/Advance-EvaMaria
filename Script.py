@@ -24,8 +24,8 @@ class script(object):
 <b>● 𝘋𝘢𝘵𝘢 𝘉𝘢𝘴𝘦: 𝘔𝘢𝘯𝘨𝘰 𝘋𝘉</b>
 <b>● 𝘏𝘰𝘴𝘵 𝘚𝘦𝘳𝘷𝘦𝘳: 🚀
 <b>● 𝘝𝘦𝘳𝘴𝘪𝘰𝘯: ᴜᒪᴛʀᴀ</b>
-<b>● 𝘔𝘢𝘪𝘯 𝘎𝘳𝘰𝘶𝘱: <a href=https://t.me/newgen_cinemaazzz>𝘕𝘦𝘸𝘎𝘦𝘯 𝘊𝘪𝘯𝘦𝘮𝘢𝘢𝘻𝘻𝘻™📌</a></b>
-<b>● 𝘕𝘦𝘸 𝘔𝘰𝘷𝘪𝘦𝘴: <a href=https://t.me/Team_NGC>𝘕𝘦𝘸 𝘔𝘰𝘷𝘪𝘦𝘴📂</a></b>"""
+<b>● 𝘔𝘢𝘪𝘯 𝘎𝘳𝘰𝘶𝘱: <a href=https://t.me/team_ngc_group>𝘕𝘦𝘸𝘎𝘦𝘯 𝘊𝘪𝘯𝘦𝘮𝘢𝘢𝘻𝘻𝘻™📌</a></b>
+<b>● 𝘕𝘦𝘸 𝘔𝘰𝘷𝘪𝘦𝘴: <a href=https://t.me/TeamNGC>𝘕𝘦𝘸 𝘔𝘰𝘷𝘪𝘦𝘴📂</a></b>"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
 - Filter is the feature were users can set automated replies for a particular keyword and Search Bot will respond whenever a keyword is found the message
