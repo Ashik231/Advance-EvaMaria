@@ -12,7 +12,7 @@ def is_enabled(value, default):
 
 class script(object):
     START_TXT = """𝘏𝘦𝘭𝘰 {},
-𝘔𝘺 𝘖𝘧𝘧𝘪𝘤𝘪𝘢𝘭 𝘕𝘢𝘮𝘦 𝘪𝘴 <a href=https://t.me/{}>{}</a>, 𝘐 𝘊𝘢𝘯 𝘎𝘪𝘷𝘦 𝘠𝘰𝘶 𝘔𝘰𝘷𝘪𝘦𝘴, 𝘢𝘯𝘥 𝘐𝘢𝘮 𝘖𝘧𝘧𝘪𝘤𝘪𝘢𝘭𝘺 𝘔𝘢𝘥𝘦 𝘧𝘰𝘳 <a href=https://t.me/newgen_cinemaazzz>𝘛𝘩𝘪𝘴 𝘎𝘳𝘰𝘶𝘱♡</a></b>...
+𝘔𝘺 𝘖𝘧𝘧𝘪𝘤𝘪𝘢𝘭 𝘕𝘢𝘮𝘦 𝘪𝘴 <a href=https://t.me/{}>{}</a>, 𝘐 𝘊𝘢𝘯 𝘎𝘪𝘷𝘦 𝘠𝘰𝘶 𝘔𝘰𝘷𝘪𝘦𝘴, 𝘢𝘯𝘥 𝘐𝘢𝘮 𝘖𝘧𝘧𝘪𝘤𝘪𝘢𝘭𝘺 𝘔𝘢𝘥𝘦 𝘧𝘰𝘳 <a href=https://t.me/team_ngc_group>𝘛𝘩𝘪𝘴 𝘎𝘳𝘰𝘶𝘱♡</a></b>...
 
 ⇚𝘠𝘰𝘶 𝘊𝘢𝘯 𝘈𝘥𝘥 𝘮𝘦 𝘖𝘯 𝘠𝘰𝘶𝘳 𝘎𝘳𝘰𝘶𝘱, 𝘐𝘵𝘴 𝘕𝘰𝘵 𝘢 𝘗𝘳𝘰𝘣𝘭𝘦𝘮, 𝘢𝘥𝘥 𝘮𝘦 𝘢𝘴 𝘈𝘥𝘮𝘪𝘯 𝘢𝘯𝘥 𝘐 𝘸𝘪𝘭𝘭 𝘗𝘳𝘰𝘷𝘪𝘥𝘦 𝘔𝘰𝘷𝘪𝘦𝘴⇛"""
     HELP_TXT = """𝘏𝘦𝘺 {}
